@@ -1,10 +1,81 @@
-/*---------------------------Background colors-------*/
 
-.bg-nav-color
-{background-color: blue}
- .bg-test-one
- {background-color:red}
-/*---------------------------Side Nav-------*/
+/* Main background taken from bootstraps basics project*/ 
+/* General theme inspiration from : https://visme.co/blog/website-color-schemes/ */
 
-.left
-{width: 25%;}
+body, html {
+  height: 100%;
+  margin: 2.5%;
+}
+/* -----------------------------------Intro bar---------------*/
+
+.intro-container
+{
+padding:2.5%;
+background-color: #2f4454;
+}
+.jumbotron 
+{
+ text-align: center;
+  background-color: #D8C3A3;
+  color:#fff;
+}
+.jumbotron-header
+{
+  font-size: 300%;
+
+}
+.intro-image {
+
+    background: url("/BackgroundCodeInstitute.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+  border-radius: 50%;
+  display:inline-block;
+}
+.responsive
+{
+  height: auto;
+  width:auto;
+}
+/*----------------------------------Nav-----------------------*/
+.nav
+{
+  
+  text-align: center;
+  background-color: #2E151B;
+  color:#fff;
+}
+
+
+.home
+{background-color: green;}
+
+.background-container{
+    height:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  display:flex;
+  align-items: center;
+  justify-content:center;
+ position:relative;
+}
+
+/*-----------------------------Main-Text-------------------*/
+.main-text
+{
+  background-color: #eed2dc;
+  color: #123c69;
+}
+/*------------------------------Footer---------------------*/
+.footer
+{ background-color: #edc7b7 }
+
