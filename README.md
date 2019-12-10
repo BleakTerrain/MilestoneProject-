@@ -12,3 +12,15 @@ To get started, create some files, play with the terminal,
 or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
 
 Happy coding!
+
+9th December: 
+To do list
+Add footer
+Find out about Git issue
+10th December:
+Add bulk of the information
+Book in with mentor
+11th December: 
+Put in form
+12th December:
+Send off the form 

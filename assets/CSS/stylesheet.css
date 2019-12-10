@@ -15,67 +15,130 @@ background-color: #2f4454;
 }
 .jumbotron 
 {
+  margin:2.5%;
+ padding: 10px;
  text-align: center;
   background-color: #D8C3A3;
   color:#fff;
+  
 }
 .jumbotron-header
 {
-  font-size: 300%;
+  font-size:500%;
 
 }
-.intro-image {
 
-    background: url("/BackgroundCodeInstitute.jpg");
+.introtron
+{
+  margin:0;
+min-height: 40%;
+}
+
+.intro-image {
+  padding-bottom: 2.5%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fill;
-    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-
   border-radius: 50%;
   display:inline-block;
 }
-.responsive
+
+.contact-card
 {
-  height: auto;
-  width:auto;
+  
+  text-align: left;
+  height:40%;
+}
+.name-card
+{
+  text-align:left;
+  font-size: x-large;
+  height:40%;  
+}
+/*-----------------------------SkillsBar-------------------*/
+.progress
+{
+  margin-bottom: 2.5%;
+ 
+}
+.full-stack
+{
+  background-color: #E27D60;
+}
+.tech-writing
+{
+  background-color: #e8a87c;
+}
+.html
+{
+  background-color: #C38D9E;
+}
+.css
+{
+  background-color: #41B3A3;
 }
 /*----------------------------------Nav-----------------------*/
 .nav
 {
-  
+
   text-align: center;
   background-color: #2E151B;
+  
+}
+.nav-link
+{
   color:#fff;
 }
-
-
-.home
-{background-color: green;}
-
-.background-container{
-    height:100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  display:flex;
-  align-items: center;
-  justify-content:center;
- position:relative;
+.nav-link:hover
+{
+  background-color:#eed2dc ;
+  color:#2E151B;
 }
 
 /*-----------------------------Main-Text-------------------*/
 .main-text
 {
-  background-color: #eed2dc;
+  background-color:#eed2dc ;
   color: #123c69;
 }
+.other-image-background
+{
+  background-color: #2f4454;
+}
+.other-image {
+  padding-bottom: 2.5%;
+    width: 100%;
+  display:block;
+  
+}
+
 /*------------------------------Footer---------------------*/
 .footer
-{ background-color: #edc7b7 }
+{ background-color: #edc7b7;
+color:#2E151B; }
 
+/*------------------------------MediaQueries-----------------*/
+
+@media (max-width: 573)
+{
+  .name-card
+{
+height: 100%;
+background-color: #E85a4f;
+}
+
+
+.contact-card
+{
+height: 100%;  
+background-color: #E98074;
+}
+}
+.other-image
+{
+  height:100%;
+
+}
