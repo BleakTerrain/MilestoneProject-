@@ -97,7 +97,18 @@ min-height: 40%;
   background-color:#eed2dc ;
   color:#2E151B;
 }
-
+.nav-item-resume
+{
+  background-color: #D8C3A3;
+}
+.nav-item-skills
+{
+  background-color: #D8C3A3;
+}
+.nav-item-contact
+{
+  background-color: #D8C3A3;
+}
 /*-----------------------------Main-Text-------------------*/
 .main-text
 {
