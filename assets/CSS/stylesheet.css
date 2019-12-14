@@ -101,25 +101,37 @@ min-height: 40%;
 /*-----------------------------Main-Text-------------------*/
 .main-text
 {
-  background-color:#eed2dc ;
-  color: #123c69;
+  background-color: #2f4454;
+}
+.main-text-box
+{ 
+  border: solid 10px #2f4454;
+  background-color: #fff;
+  color: #2f4454;
 }
 .other-image-background
 {
-  background-color: #2f4454;
+border: solid 10px #2f4454;
+ margin:0;
 }
 .other-image {
-  padding-bottom: 2.5%;
-    width: 100%;
+  
+width: 100%;
   display:block;
   
 }
 
 /*------------------------------Footer---------------------*/
 .footer
-{ background-color: #edc7b7;
-color:#2E151B; }
-
+{ background-color: #D8C3A3;
+color:#fff;
+padding: 2.5%;
+border: solid 10px #2f4454 ;
+}
+.footer-item
+{
+  text-align: center;
+}
 /*------------------------------MediaQueries-----------------*/
 
 @media (max-width: 573)
