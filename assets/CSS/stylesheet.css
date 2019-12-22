@@ -59,10 +59,15 @@ min-height: 40%;
   height:40%;  
 }
 /*-----------------------------SkillsBar-------------------*/
+.skill-bars
+{
+ width: 100%;
+ border: solid 10px #41B3A3 ;
+ padding: 2.5%;
+}
 .progress
 {
-  margin-bottom: 2.5%;
- 
+  margin-bottom:10%;
 }
 .full-stack
 {
@@ -114,6 +119,7 @@ min-height: 40%;
 {
   background-color: #2f4454;
 }
+
 .main-text-box
 { 
   border: solid 10px #2f4454;
@@ -131,6 +137,24 @@ width: 100%;
   display:block;
   
 }
+
+.resume-main-text
+{
+  background-color:#fff ;
+  border: solid 10px #2f4454;
+  padding:2.5% ;
+}
+
+.resume-image
+{
+  margin-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+  display:inline-block;
+}
+
 
 /*-----------------------------Timeline-------------------*/
 /*-- Influenced by http://www.prepbootstrap.com/bootstrap-template/timeline ---*/
@@ -161,8 +185,9 @@ width: 100%;
 }
 
  .timeline-panel {
-   background-color: #D8C3A3;
-  width: 75%;
+   background-color:  #41B3A3;
+   color:#fff;
+  width: 90%;
   float: center;
   border: 1px solid #d4d4d4;
   border-radius: 10px;
@@ -175,8 +200,7 @@ width: 100%;
   display: inline-block;
 }
 .timeline-panel:after {
-  position: absolute;
- 
+  position: relative;
   display: inline-block;
 }
  .timeline-badge {
@@ -189,6 +213,7 @@ width: 100%;
   left: -7px;
   
 }
+
 /*------------------------------Footer---------------------*/
 .footer
 { background-color: #D8C3A3;
