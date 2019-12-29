@@ -65,9 +65,9 @@ min-height: 40%;
  border: solid 10px #41B3A3 ;
  padding: 2.5%;
 }
-.progress
+.progress-index
 {
-  margin-bottom:10%;
+  margin-bottom:5%;
 }
 .full-stack
 {
@@ -86,6 +86,7 @@ min-height: 40%;
   background-color: #41B3A3;
 }
 /*----------------------------------Nav-----------------------*/
+/* There are nav-item classes per nav items because I had different plans - these got changed but I'm keeping them just incase */
 .nav
 {
 
@@ -138,7 +139,8 @@ width: 100%;
   
 }
 
-.resume-main-text
+.resume-main-text,
+.skills-text-box
 {
   color:#2E151B;
   background-color:#fbf7f5 ;
@@ -154,6 +156,11 @@ width: 100%;
     width: 100%;
     background-repeat: no-repeat;
   display:inline-block;
+}
+
+.skillsbar-main
+{
+margin-bottom: 2.5%;
 }
 
 
