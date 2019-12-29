@@ -163,6 +163,18 @@ width: 100%;
 margin-bottom: 2.5%;
 }
 
+.skills-link
+{
+font-size: 70px;
+color: #2E151B;
+margin-left: 15%;
+}
+
+.skills-link:hover
+{
+color:#eed2dc ;
+}
+
 
 /*-----------------------------Timeline-------------------*/
 /*-- Influenced by http://www.prepbootstrap.com/bootstrap-template/timeline ---*/
