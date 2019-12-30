@@ -9,17 +9,19 @@ This website was intended to be as easy to use as possible and to include simple
 This was enable a better user experience. 
 
 User Stories: 
-"As a small business owner, I don't have much time. I want to the content and layout to be easy to use and to follow"
-"As the head of a digital media startup, I have a little technical knowlege and would like access to the developers previous code. "
-"As a self-employed potter/etsy creator I want to trust my developer - I'd like an easy way to contact them and for things not to feel to technical and unaccessible"
+"As a small business owner, I don't have much time. I want to the content and layout to be easy to use and to follow"</br>
+"As the head of a digital media startup, I have a little technical knowlege and would like access to the developers previous code. "</br>
+"As a self-employed potter/etsy creator I want to trust my developer - I'd like an easy way to contact them and for things not to feel to technical and unaccessible" </br>
 
 There are no wireframes available for this project. Wireframes would have been useful in the planning stage and will be implemented at the beginning in the future. 
 
 Features
+
+
 |Existing Feature| What it does|
 |---|---|
 |Navbar|The Navbar allows the user to navigate through the website. In this case it also helps break up the page and creates an easy to read UX.|
-|Download link| There is a CV download link on this page.|
+|Download link| There is a CV download link on this page. There is a similar link for the README.md but it is not entirely downloadable|
 |Timeline|There is a work-history timeline on the Resume page|
 |Form|There is a contact form located on the contact page. This is not linked up yet as it requires further knowledge|
 
