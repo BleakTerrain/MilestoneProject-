@@ -17,7 +17,7 @@ There are no wireframes available for this project. Wireframes would have been u
 
 Features
 |Existing Feature| What it does|
-|:--|:--|
+|---|---|
 |Navbar|The Navbar allows the user to navigate through the website. In this case it also helps break up the page and creates an easy to read UX.|
 |Download link| There is a CV download link on this page.|
 |Timeline|There is a work-history timeline on the Resume page|
