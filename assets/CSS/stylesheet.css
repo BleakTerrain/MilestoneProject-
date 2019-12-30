@@ -46,17 +46,18 @@ min-height: 40%;
   display:inline-block;
 }
 
+
 .contact-card
 {
   
   text-align: left;
-  height:40%;
+  height:50%;
 }
 .name-card
 {
   text-align:left;
   font-size: x-large;
-  height:40%;  
+  height:50%;  
 }
 /*-----------------------------SkillsBar-------------------*/
 .skill-bars
@@ -140,7 +141,8 @@ width: 100%;
 }
 
 .resume-main-text,
-.skills-text-box
+.skills-text-box,
+.contact-main-text
 {
   color:#2E151B;
   background-color:#fbf7f5 ;
@@ -175,7 +177,22 @@ margin-left: 15%;
 color:#eed2dc ;
 }
 
+.middle-form
+{
+  padding:2.5%;
+  max-width:70%;
+  margin: 0 auto;
+}
 
+.btn-secondary
+{
+  background-color:#2E151B;
+}
+
+.btn-secondary:hover
+{
+  background-color:#eed2dc; 
+}
 /*-----------------------------Timeline-------------------*/
 /*-- Influenced by http://www.prepbootstrap.com/bootstrap-template/timeline ---*/
 .timeline {
@@ -248,23 +265,17 @@ border: solid 10px #2f4454 ;
 }
 /*------------------------------MediaQueries-----------------*/
 
-@media (max-width: 573)
+@media (max-width: 573px)
 {
-  .name-card
+  .name-card,
+  .contact-card
 {
 height: 100%;
-background-color: #E85a4f;
 }
 
-
-.contact-card
-{
-height: 100%;  
-background-color: #E98074;
-}
-}
 .other-image
 {
   height:100%;
 
+}
 }
