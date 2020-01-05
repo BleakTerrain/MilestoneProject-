@@ -17,6 +17,7 @@ There are no wireframes available for this project. Wireframes would have been u
 
 Features
 
+### Existing Features: 
 
 |Existing Feature| What it does|
 |---|---|
@@ -26,33 +27,27 @@ Features
 |Form|There is a contact form located on the contact page. This is not linked up yet as it requires further knowledge|
 
 
+### Features Left to Implement: 
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+|Features to implement|What would it do|
+|---|---|
+|Better UI|At this point the UI is fairly basic, it would be preferable to work on this over time|
+|Form connection|At this point the form is only there as a placeholder and down't really do anything. This is the next step|
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Technologies Used
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+This website uses HTML, CSS, Bootstrap and FontAwesome. 
+It was built using the AWS Cloud 9 IDE
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Responsive UI
+As this site is made for Mobile-First, the Bootstrap row and column frameworks were used. 
+There is one media query for smaller screens to manage the image and name/intro card sizes. There was some testing into changing the color scheme for smaller screens but this didn't look as intended and was changed back. 
+A conscious choice was made at this stage to avoid any drastic layout changes between desktop and smaller screens to make the page easier to understand for those who aren't as technically minded. 
+The layout and general feel of the site works and looks better on smaller screen. One of the features left to implement is a UI "revamp" for larger screens.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Deployment
+### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -62,10 +57,12 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+### Credits
+All the written content on this website is authored by Hope Rudd (me)
+Colour schemes inspired by: https://visme.co/blog/website-color-schemes
+Images were obtained as such: 
+BackgroundCodeInstitue.jpg: Hope Rudd (me)
+DeskImage.jpg: https://www.pexels.com/search/laptop/
+Doggo.jpg: https://www.pexels.com/search/puppy/
+
+I was inspired by the Code Institute project: https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4
