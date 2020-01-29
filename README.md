@@ -48,14 +48,8 @@ A conscious choice was made at this stage to avoid any drastic layout changes be
 The layout and general feel of the site works and looks better on smaller screen. One of the features left to implement is a UI "revamp" for larger screens.
 
 ### Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This website was not intended for professional use but instead for experimental use to utilize skills from learnt during the Code Institute Full Stack Course. 
+Therefore, the best option for deployment was the most simple - using GitHub Pages. This was a straightforward process that enabled me to view the published site with ease. 
 
 ### Credits
 All the written content on this website is authored by Hope Rudd (me)
