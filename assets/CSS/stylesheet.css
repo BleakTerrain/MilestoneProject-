@@ -63,7 +63,8 @@ min-height: 40%;
 
 .contact-info
 {
-  text-align: left;
+ 
+  font-size: 60%;
 }
 /*-----------------------------SkillsBar-------------------*/
 .skill-bars
